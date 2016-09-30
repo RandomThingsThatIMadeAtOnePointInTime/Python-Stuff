@@ -35,12 +35,6 @@
 # +-----------------------------------------------------+
 #
 
-def isValidNumber(x):
-    try:
-        int(x)
-        return True
-    except ValueError:
-        return False
 def getNumberInput(prompt):
     while True:
         try:
