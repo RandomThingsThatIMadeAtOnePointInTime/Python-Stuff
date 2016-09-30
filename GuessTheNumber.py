@@ -32,4 +32,4 @@ while not hasGuessedCorrectly and guesses < maxGuesses:
 if guesses is not maxGuesses:
     print("Correct! The number was " + str(correctNumber))
 else:
-    print("You're not very smart. The number was " + str(correctNumber) + ". Better luck next time, looser.")
+    print("You're not very smart. The number was " + str(correctNumber) + ". Better luck next time, loser.")
